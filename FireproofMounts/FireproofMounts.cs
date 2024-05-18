@@ -2,6 +2,7 @@
 using BepInEx;
 using HarmonyLib;
 using JetBrains.Annotations;
+using UnityEngine;
 
 namespace FireproofMounts
 {
@@ -16,6 +17,7 @@ namespace FireproofMounts
         {
             _harmony = Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), PluginId);
         }
+
 
         [UsedImplicitly]
         private void OnDestroy()

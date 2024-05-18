@@ -36,6 +36,12 @@
     <Reference Include="0Harmony">
       <HintPath>Z:\SteamLibrary\steamapps\common\Valheim-Dev\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="assembly_utils_publicized">
+      <HintPath>Z:\SteamLibrary\steamapps\common\Valheim-Dev\valheim_Data\Managed\publicized_assemblies\assembly_utils_publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="assembly_valheim_publicized">
+      <HintPath>Z:\SteamLibrary\steamapps\common\Valheim-Dev\valheim_Data\Managed\publicized_assemblies\assembly_valheim_publicized.dll</HintPath>
+    </Reference>
     <Reference Include="BepInEx">
       <HintPath>Z:\SteamLibrary\steamapps\common\Valheim-Dev\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
@@ -55,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Burning.cs" />
     <Compile Include="FireproofMounts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
